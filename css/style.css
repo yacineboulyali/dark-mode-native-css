@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+}
+
+/* automatic dark mode*/
+@media(prefers-color-scheme: dark){
+    *{
+          background-color: #222222;
+    }
+    h1{
+        color:#eeeeee;
+    }
+}
+
+h1{
+    color:#e6bb71;
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.avatar{
+    transition: 3ms;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profilimg img{
+    width: 30vh;
+    border: 3px solid white;
+    border-radius: 20%;
+}
